@@ -1,3 +1,8 @@
+const { Telegraf } = require('telegraf');
+
+     const bot = new Telegraf('7583508087:AAF88gRJXan9DTH-i1IWKsq9ySZQ-lZThZY');  // Replace 'YOUR_BOT_API_TOKEN' with your actual bot token
+
+
 const emojis = ["👍", "❤", "🔥", "🥰", "👏", "😁", "🤔", "🤯", "😱", "🎉", "🤩", "🙏", "👌", "😍", "❤‍🔥", "🌚", "💯", "🤣", "💔", "😐", "🇮🇳", "😈", "😴", "😭", "🤓", "😇", "🤝", "🤗", "🫡", "🤪", "🗿", "🆒", "💘", "😘", "😎", "🇳🇵"];
 
 bot.on('message', async (ctx) => {
